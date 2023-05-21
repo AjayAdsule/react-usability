@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+    font-family: 'Open sans','Poppins',sans-serif;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    border: 2px solid red;
+}
+ol{
+    list-style-type: none;
+}
+.primary-button{
+    background-color: #2294ed;
+    color: white;
+}
